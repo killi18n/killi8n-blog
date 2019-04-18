@@ -1,0 +1,7 @@
+@import '~open-color/open-color';
+@import '~include-media/dist/include-media';
+
+$breakpoints: (
+  small: 325px,
+  medium: 585px,
+);
