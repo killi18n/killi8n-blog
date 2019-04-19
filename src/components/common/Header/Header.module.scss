@@ -3,12 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Sans+TC');
 
 .header {
-  background: $oc-pink-6;
+  background: $oc-indigo-5;
   color: white;
 
   font-family: 'Pacifico', cursive;
 
-  height: 10rem;
+  height: 5.5rem;
 
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
   .headerTitle {
     margin: 0 auto;
 
-    font-size: 2.5rem;
+    font-size: 2rem;
     height: 5rem;
 
     @include media('<medium') {
@@ -33,7 +33,8 @@
   .description {
     margin: 0 auto;
     font-family: 'Noto Sans TC', sans-serif;
-
+    font-size: 0.75rem;
+    padding-bottom: 0.5rem;
     @include media('<medium') {
       display: none;
     }
