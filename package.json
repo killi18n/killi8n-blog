@@ -23,6 +23,7 @@
   "devDependencies": {
     "gatsby-plugin-resolve-src": "^2.0.0",
     "gatsby-plugin-sass": "^2.0.11",
+    "gatsby-transformer-remark": "^2.3.8",
     "node-sass": "^4.11.0",
     "prettier": "^1.17.0"
   },
