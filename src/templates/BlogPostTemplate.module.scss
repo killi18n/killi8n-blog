@@ -56,6 +56,9 @@ $desktop-width: 625px;
 
     img {
       max-width: $desktop-width;
+      @include media('<medium') {
+        max-width: 100%;
+      }
     }
 
     blockquote {
