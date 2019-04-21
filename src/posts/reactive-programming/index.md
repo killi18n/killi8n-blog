@@ -2,6 +2,7 @@
 path: '/posts/reactive-programming'
 title: 'Reactive Programming'
 date: '2018-07-18'
+tags: ['reactive programming', 'reactive', 'rx']
 ---
 
 > Reactive Programming.
