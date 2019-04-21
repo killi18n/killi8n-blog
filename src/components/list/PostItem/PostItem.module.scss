@@ -14,12 +14,21 @@
 
   .postTitle {
     font-size: 1.75rem;
+    @include media('<medium') {
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
   }
 
   .postExcerpt {
     margin-top: 1rem;
     margin-left: 0.25rem;
+    margin-right: 0.25rem;
     font-size: 1.05rem;
+
+    @include media('<medium') {
+      font-size: 0.85rem;
+    }
   }
 
   .postDate {

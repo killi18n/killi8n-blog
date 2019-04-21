@@ -8,18 +8,13 @@ import SEO from 'components/seo';
 import PostList from 'components/list/PostList';
 
 const BlogListTemplate = props => {
-  console.log(props);
   const {
-    pageContext: { limit, skip, numPages, currentPage },
+    pageContext: { numPages, currentPage },
     data: {
       allMarkdownRemark: { edges },
     },
   } = props;
 
-  //   const { data } = props;
-  // const { allMarkdownRemark } = data;
-  // const { edges } = allMarkdownRemark;
-  // edges: array
   return (
     <Layout>
       <SEO

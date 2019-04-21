@@ -5,7 +5,6 @@ import Layout from 'components/common/Layout';
 import styles from './BlogPostTemplate.module.scss';
 
 const BlogPostTemplate = props => {
-  console.log(props);
   const {
     data: {
       markdownRemark: {
@@ -42,8 +41,8 @@ const BlogPostTemplate = props => {
           <div className={styles.tagsTitle}>TAGS</div>
           {tags &&
             tags.length > 0 &&
-            tags.map(tag => (
-              <Link to={`/tag/${tag}`} className={styles.tag}>
+            tags.map((tag, i) => (
+              <Link key={i} to={`/tag/${tag}`} className={styles.tag}>
                 #{tag}
               </Link>
             ))}

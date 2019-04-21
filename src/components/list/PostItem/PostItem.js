@@ -12,7 +12,9 @@ const PostItem = ({ post }) => {
   return (
     <Link to={path} className={styles.postItemWrapper}>
       <div className={styles.postTitle}>{title}</div>
-      <div className={styles.postExcerpt}>{excerpt}</div>
+      <div className={styles.postExcerpt}>
+        {excerpt.length > 100 ? `${excerpt.substring(0, 120)}...` : excerpt}
+      </div>
       <div className={styles.postDate}>{date}</div>
     </Link>
   );

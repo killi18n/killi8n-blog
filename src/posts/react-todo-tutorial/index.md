@@ -1497,7 +1497,7 @@ input의 outline이 표시되는게 예쁘지 않은것 같으므로,
 
   // 추가된 부분
   // breakpoints에서 지정한 medium값보다 화면넓이가 작아질시, width를 전체화면의 90%로 맞춤.
-  @include media('<=medium') {
+  @include media('<medium') {
     width: 90%;
   }
 }

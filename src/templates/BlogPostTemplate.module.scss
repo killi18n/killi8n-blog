@@ -9,6 +9,14 @@ $desktop-width: 625px;
   margin-top: 1.85rem;
   padding: 1.25rem;
 
+  @include media('<medium') {
+    margin-left: 0rem;
+    margin-right: 0rem;
+
+    width: 100%;
+    padding: 0;
+  }
+
   display: flex;
   flex-direction: column;
 
@@ -16,12 +24,20 @@ $desktop-width: 625px;
     font-size: 2.5rem;
     font-weight: 700;
     color: $oc-blue-9;
+
+    @include media('<medium') {
+      font-size: 1.25rem;
+    }
   }
 
   .postDetailDate {
     margin-left: auto;
     margin-top: 1rem;
     font-weight: 450;
+
+    @include media('<medium') {
+      margin-right: 1rem;
+    }
   }
 
   .postDetailMarkdown {
@@ -78,6 +94,10 @@ $desktop-width: 625px;
       font-weight: 600;
 
       margin-bottom: 1rem;
+
+      @include media('<medium') {
+        font-size: 1.25rem;
+      }
     }
 
     .tag {

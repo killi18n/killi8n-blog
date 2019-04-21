@@ -1,15 +1,16 @@
 @import '~styles/utils.scss';
 
 .postList {
-  // margin-left: auto;
-  // margin-right: auto;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
-  // max-width: 42rem;
 
   background: white;
 
   padding: 1.5rem;
 
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+
+  @include media('<medium') {
+    margin-top: 1rem;
+  }
 }
