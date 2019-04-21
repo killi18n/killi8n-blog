@@ -1,0 +1,56 @@
+@import '~styles/utils.scss';
+
+$desktop-width: 625px;
+
+.postDetailWrapper {
+  margin-left: auto;
+  margin-right: auto;
+  width: $desktop-width;
+  margin-top: 1.85rem;
+  padding: 1.25rem;
+
+  .postDetailTitle {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: $oc-blue-9;
+  }
+
+  .postDetailMarkdown {
+    a {
+      transition: color 0.5s ease;
+      color: $oc-blue-8;
+      font-weight: 700;
+      &:hover {
+        color: $oc-blue-9;
+      }
+    }
+
+    img {
+      max-width: $desktop-width;
+    }
+
+    blockquote {
+      padding-top: 0.25rem;
+      padding-bottom: 0.25rem;
+      padding-left: 0.5rem;
+
+      margin-left: 0rem;
+      margin-right: 0rem;
+
+      border-left: 8px solid $oc-blue-5;
+      border-radius: 3px;
+      background: $oc-gray-3;
+    }
+
+    // pre {
+    //   background: $oc-gray-9;
+    //   padding: 1rem;
+    //   code {
+    //     color: white;
+    //     width: 100%;
+    //     .language-html {
+    //     }
+    //   }
+    // }
+  }
+}

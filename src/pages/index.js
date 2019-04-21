@@ -35,9 +35,11 @@ export const postListQuery = graphql`
       edges {
         node {
           id
+          excerpt
           frontmatter {
             title
             path
+            date
           }
         }
       }

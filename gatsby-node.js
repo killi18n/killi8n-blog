@@ -18,8 +18,11 @@ exports.modifyWebpackConfig = ({ config, _stage }) => {
   });
 };
 
-exports.createPages = ({ actions, graphql }) => {
-  const { createPage } = actions;
+exports.createPages = props => {
+  const {
+    actions: { createPage },
+    graphql,
+  } = props;
 
   const blogPostTemplate = path.resolve(`src/templates/BlogPostTemplate.js`);
 
@@ -46,9 +49,7 @@ exports.createPages = ({ actions, graphql }) => {
       createPage({
         path: node.frontmatter.path,
         component: blogPostTemplate,
-        context: {
-          title: node.frontmatter.title,
-        },
+        context: {},
       });
     });
   });

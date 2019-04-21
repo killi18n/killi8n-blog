@@ -5,15 +5,16 @@ import styles from './PostItem.module.scss';
 const PostItem = ({ post }) => {
   const {
     node: {
-      frontmatter: { title, path },
+      excerpt,
+      frontmatter: { title, path, date },
     },
   } = post;
   return (
-    <div>
-      <Link to={path} className={styles.postTitle}>
-        {title}
-      </Link>
-    </div>
+    <Link to={path} className={styles.postItemWrapper}>
+      <div className={styles.postTitle}>{title}</div>
+      <div className={styles.postExcerpt}>{excerpt}</div>
+      <div className={styles.postDate}>{date}</div>
+    </Link>
   );
 };
 

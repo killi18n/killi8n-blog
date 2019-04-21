@@ -1,1 +1,33 @@
 @import '~styles/utils.scss';
+
+.postItemWrapper {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  color: $oc-gray-7;
+
+  transition: color 0.5s ease;
+  &:hover {
+    color: $oc-blue-8;
+  }
+
+  .postTitle {
+    font-size: 1.75rem;
+  }
+
+  .postExcerpt {
+    margin-top: 1rem;
+    margin-left: 0.25rem;
+    font-size: 1.05rem;
+  }
+
+  .postDate {
+    margin-top: 1rem;
+    margin-left: auto;
+  }
+
+  & + & {
+    border-top: 1px solid $oc-gray-3;
+  }
+}
