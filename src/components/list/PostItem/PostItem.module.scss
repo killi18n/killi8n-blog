@@ -1,6 +1,8 @@
 @import '~styles/utils.scss';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 .postItemWrapper {
+  font-family: 'Open Sans', sans-serif;
   padding-top: 1rem;
   padding-bottom: 1rem;
   display: flex;
