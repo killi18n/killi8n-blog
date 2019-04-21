@@ -1,5 +1,5 @@
 import React from 'react';
-import { graphql } from 'gatsby';
+import { graphql, Link } from 'gatsby';
 import SEO from 'components/seo';
 import Layout from 'components/common/Layout';
 import styles from './BlogPostTemplate.module.scss';
@@ -9,7 +9,7 @@ const BlogPostTemplate = props => {
   const {
     data: {
       markdownRemark: {
-        frontmatter: { date, path, title },
+        frontmatter: { date, title, tags },
         html,
       },
     },
@@ -30,12 +30,23 @@ const BlogPostTemplate = props => {
       />
       <div className={styles.postDetailWrapper}>
         <div className={styles.postDetailTitle}>{title}</div>
+        <div className={styles.postDetailDate}>{date}</div>
         <div className={styles.postDetailMarkdown}>
           <div
             dangerouslySetInnerHTML={{
               __html: html,
             }}
           />
+        </div>
+        <div className={styles.tagsWrapper}>
+          <div className={styles.tagsTitle}>TAGS</div>
+          {tags &&
+            tags.length > 0 &&
+            tags.map(tag => (
+              <Link to={`/tag/${tag}`} className={styles.tag}>
+                #{tag}
+              </Link>
+            ))}
         </div>
       </div>
     </Layout>
@@ -50,6 +61,7 @@ export const postDetailQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         path
         title
+        tags
       }
     }
   }

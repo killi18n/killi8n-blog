@@ -2,6 +2,7 @@
 path: '/posts/github-api-tutorial'
 date: '2019-02-21'
 title: 'Github API (OAuth) 사용법'
+tags: ['tutorial', 'github api']
 ---
 
 # Github API 사용법

@@ -2,6 +2,7 @@
 path: '/posts/introduction'
 date: '2019-03-05'
 title: 'Introduction'
+tags: ['introduction']
 ---
 
 ## 1. Todo React (Done)

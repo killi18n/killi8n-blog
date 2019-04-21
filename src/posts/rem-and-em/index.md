@@ -2,6 +2,7 @@
 path: '/posts/rem-and-em'
 title: 'rem 과 em'
 date: '2018-07-26'
+tags: ['css', 'rem', 'em']
 ---
 
 웹개발을 할때 css에서 쓰이는 단위는 여러개가 있죠.

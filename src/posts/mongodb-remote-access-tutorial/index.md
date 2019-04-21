@@ -2,6 +2,7 @@
 path: '/posts/mongodb-remote-access-tutorial'
 date: '2019-03-19'
 title: 'mongodb 원격 접속 및 인증 접속'
+tags: ['mongodb', 'tutorial']
 ---
 
 # 원격 접속을 위한 몽고디비 설정하기

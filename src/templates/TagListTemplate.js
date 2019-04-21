@@ -1,29 +1,16 @@
 import React from 'react';
-import { graphql } from 'gatsby';
-
+// import { graphql } from 'gatsby';
 import Layout from 'components/common/Layout';
-import Pagination from 'components/common/Pagination';
+// import Pagination from 'components/common/Pagination';
 // import Image from '../components/image';
 import SEO from 'components/seo';
 import PostList from 'components/list/PostList';
+import styles from './TagListTemplate.module.scss';
 
 const TagListTemplate = props => {
-  //   console.log(props);
   const {
     pageContext: { tag, posts },
   } = props;
-  //   console.log(posts);
-  //   const {
-  //     pageContext: { limit, skip, numPages, currentPage, tag },
-  //     data: {
-  //       allMarkdownRemark: { edges },
-  //     },
-  //   } = props;
-
-  //   const { data } = props;
-  // const { allMarkdownRemark } = data;
-  // const { edges } = allMarkdownRemark;
-  // edges: array
   return (
     <Layout>
       <SEO
@@ -38,6 +25,7 @@ const TagListTemplate = props => {
           `gig`,
         ]}
       />
+      <div className={styles.tagTemplateTitle}>#{tag}</div>
       <PostList posts={posts} />
       {/* <Pagination numPages={numPages} currentPage={currentPage} /> */}
     </Layout>

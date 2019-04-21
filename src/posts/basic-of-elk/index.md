@@ -2,6 +2,7 @@
 path: '/posts/basic-of-elk'
 title: 'ELK - Elastic Search , Logstash , Kibana 기초'
 date: '2018-12-26'
+tags: ['elk', 'elastic', 'tutorial']
 ---
 
 > 출처: 1) https://okdevtv.com/mib/elk/elk5 2) https://logz.io/blog/elk-mac/

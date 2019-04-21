@@ -8,15 +8,15 @@
 
 const path = require('path');
 
-exports.modifyWebpackConfig = ({ config, _stage }) => {
-  return config.merge({
-    resolve: {
-      alias: {
-        styles: path.resolve(config._config.context, 'src/styles'),
-      },
-    },
-  });
-};
+// exports.modifyWebpackConfig = ({ config, _stage }) => {
+//   return config.merge({
+//     resolve: {
+//       alias: {
+//         styles: path.resolve(config._config.context, 'src/styles'),
+//       },
+//     },
+//   });
+// };
 
 exports.createPages = props => {
   const {
