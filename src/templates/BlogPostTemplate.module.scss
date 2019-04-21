@@ -30,10 +30,12 @@ $desktop-width: 625px;
 
     @include media('<medium') {
       font-size: 1.25rem;
+      font-weight: 800;
     }
   }
 
   .postDetailDate {
+    font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-top: 1rem;
     font-weight: 450;
