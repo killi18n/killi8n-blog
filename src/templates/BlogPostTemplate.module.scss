@@ -1,5 +1,4 @@
 @import '~styles/utils.scss';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 $desktop-width: 625px;
 
@@ -22,8 +21,6 @@ $desktop-width: 625px;
   flex-direction: column;
 
   .postDetailTitle {
-    font-family: 'Open Sans', sans-serif;
-
     font-size: 2.5rem;
     font-weight: 700;
     color: $oc-blue-9;
@@ -35,7 +32,6 @@ $desktop-width: 625px;
   }
 
   .postDetailDate {
-    font-family: 'Open Sans', sans-serif;
     margin-left: auto;
     margin-top: 1rem;
     font-weight: 450;
