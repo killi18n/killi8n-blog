@@ -48,3 +48,11 @@ Github REPO: https://github.com/killi8n/Trible
 A simple node js service for updating mac's background image.
 
 Github REPO: https://github.com/killi8n/UnsplashDownloader
+
+## 7. tv-series (Partially Done)
+
+a tv-series web site made by react & node.js
+
+Todo: Serverless Deploy
+
+Github REPO: https://github.com/killi8n/tv-series
