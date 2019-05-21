@@ -7,9 +7,9 @@ tags: ['introduction']
 
 ## 1. Todo React (Done)
 
-Github Repo: https://github.com/killi8n/todo-react
+Github Repo: https://github.com/killi18n/todo-react
 
-Tutorial: https://gist.github.com/killi8n/57ef0bda5c4570cc0c313233ae3088ae
+Tutorial: https://gist.github.com/killi18n/57ef0bda5c4570cc0c313233ae3088ae
 
 Sample: http://elfin-structure.surge.sh/
 
@@ -17,15 +17,15 @@ Sample: http://elfin-structure.surge.sh/
 
 Simple React application using github's api.
 
-Github Repo: https://github.com/killi8n/react-hub
+Github Repo: https://github.com/killi18n/react-hub
 
-Tutorial: https://gist.github.com/killi8n/3c49dc7be358f5e5ec15b9afc926adef
+Tutorial: https://gist.github.com/killi18n/3c49dc7be358f5e5ec15b9afc926adef
 
 ## 3. Todo With Hooks (Done)
 
 Todo Application with React Hooks
 
-Github Repo: https://github.com/killi8n/todo-hooks
+Github Repo: https://github.com/killi18n/todo-hooks
 
 Sample: http://special-grandmother.surge.sh/
 
@@ -33,7 +33,7 @@ Sample: http://special-grandmother.surge.sh/
 
 Github API + React Application + Server Side Rendering + Serverless
 
-Github REPO: https://github.com/killi8n/geact
+Github REPO: https://github.com/killi18n/geact
 
 ## 5. Trible (Deployed on AppStore)
 
@@ -41,13 +41,13 @@ Github REPO: https://github.com/killi8n/geact
 
 A Simple Planner Service App (iOS Only)
 
-Github REPO: https://github.com/killi8n/Trible
+Github REPO: https://github.com/killi18n/Trible
 
 ## 6. UnsplashDownloader (Done)
 
 A simple node js service for updating mac's background image.
 
-Github REPO: https://github.com/killi8n/UnsplashDownloader
+Github REPO: https://github.com/killi18n/UnsplashDownloader
 
 ## 7. tv-series (Partially Done)
 
@@ -55,4 +55,12 @@ a tv-series web site made by react & node.js
 
 Todo: Serverless Deploy
 
-Github REPO: https://github.com/killi8n/tv-series
+Github REPO: https://github.com/killi18n/tv-series
+
+## 8. react-memo-apollo (Done)
+
+Graphql(Backend) + React Apollo(Frontend)
+
+A simple infinite scrollable memo list page
+
+Github REPO: https://github.com/killi18n/react-memo-apollo
