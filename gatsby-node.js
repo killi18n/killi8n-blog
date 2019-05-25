@@ -128,6 +128,7 @@ const createPaginationPageByTag = (graphql, createPage) => {
               frontmatter {
                 title
                 path
+                date
               }
             }
           }

@@ -9,6 +9,7 @@ const PostItem = ({ post }) => {
       frontmatter: { title, path, date },
     },
   } = post;
+  console.log(post);
   return (
     <Link to={path} className={styles.postItemWrapper}>
       <div className={styles.postTitle}>{title}</div>
