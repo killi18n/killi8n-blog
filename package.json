@@ -27,7 +27,7 @@
     "gatsby-transformer-remark": "^2.3.8",
     "node-sass": "^4.11.0",
     "prettier": "^1.17.0",
-    "prismjs": "^1.16.0"
+    "prismjs": "^1.25.0"
   },
   "keywords": [
     "gatsby"
